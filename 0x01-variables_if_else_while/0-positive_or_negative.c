@@ -1,8 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+#include <stdio.h>
 
-/* betty style doc for function main goes there */
+/* 
+ * main - entry point 
+ *
+ * Description: positive or negative
+ *
+ * Retunr : 0 (success)
+ */
 int main(void)
 {
 	int n;
@@ -18,7 +24,7 @@ int main(void)
 	printf("is zero\n");
 	}	
 	else if (n < 0)
-	{	
+	{
 	printf("is negative\n");
 	}
 	return (0);
