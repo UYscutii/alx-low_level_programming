@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main: main is the entry point
+ * main: this is the main function it is the entry point of the program i wrote its so useful
  * Description: a code using puts function to print a sentence
  * Return : always returns 0
  */
