@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main  - Entry point
- * Description: a c program that prints using puts function
+ * Description: a C program prints using puts 
  * Return : always returns 0
  */
 int main(void)
