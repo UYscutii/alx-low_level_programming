@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main  - Entry point
- * Description: a C program prints using puts 
- * Return : always returns 0
+ * Description: a C program prints using puts
+ * Return : always 0 (sucess)
  */
 int main(void)
 {
