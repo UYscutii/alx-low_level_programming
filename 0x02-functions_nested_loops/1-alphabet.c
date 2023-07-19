@@ -4,7 +4,7 @@
 *description: printing alphabets in lowercase
 *Return : always 0
  */
-void print_alphabet(void)
+int print_alphabet(void)
 {
 	int x;
 
@@ -12,4 +12,4 @@ void print_alphabet(void)
 	{
 		_putchar(x);
 	}
-	_putchar("\n");
+	_putchar('\n');
