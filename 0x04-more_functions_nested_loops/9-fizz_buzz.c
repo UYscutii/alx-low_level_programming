@@ -15,10 +15,11 @@ int main(void)
 		else if ( n % 5 == 0 &&  n % 3 == 0)
 			printf("FizzBuzz");
 		else 
-		{
 			printf("%d",n);
-		}
+		if ( num != 100)
 			printf(" ");
+		else
+			printf("\n");
 	}
 			return (0);
 }	
