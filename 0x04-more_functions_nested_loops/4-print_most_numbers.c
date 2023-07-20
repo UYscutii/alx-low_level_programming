@@ -1,4 +1,4 @@
-#incude "main.h"
+#include "main.h"
 /*
  *main - entry point
  *Description: printing most numbers
