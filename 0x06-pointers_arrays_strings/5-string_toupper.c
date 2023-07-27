@@ -4,13 +4,13 @@
  *
  * Return: Always 0.
  */
-char *string_toupper(char str *)
+char *string_toupper(char *str)
 {
 	int i;
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		if (i <= 122 && i >= 97)
+		if (str[i] <= 122 && str[i] >= 97)
 		{
 			str[i] = str[i] - 32;
 		}
