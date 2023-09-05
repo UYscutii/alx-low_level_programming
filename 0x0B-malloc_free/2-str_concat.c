@@ -14,9 +14,9 @@ int size2;
 int i;
 char *m;
 
-	while (s[size1] != '\0')
+	while (s1[size1] != '\0')
        size1++;
-	while (s[size2] != '\0')
+	while (s2[size2] != '\0')
        size2++;
 	m = malloc((size1 + size2) * sizeof(char +1));
 	if (m == 0)
