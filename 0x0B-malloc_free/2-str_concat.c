@@ -14,6 +14,10 @@ int size2;
 int i;
 char *m;
 
+	if (s1 == NULL)
+		s1 == '\0';
+	if (s2 == NULL)
+		s2 == '\0';
 	while (s1[size1] != '\0')
 	size1++;
 	while (s2[size2] != '\0')
