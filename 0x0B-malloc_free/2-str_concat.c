@@ -7,7 +7,6 @@
  *
  * Return: Always 0.
  */
-char *str_concat(char *s1, char *s2)
 int _strlen(char *s)
 {
 	int size;
@@ -16,6 +15,8 @@ int _strlen(char *s)
 		;
 	return (size);
 }
+char *str_concat(char *s1, char *s2)
+{
 int size1, size2, i;
 char *m;
 
