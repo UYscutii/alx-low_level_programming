@@ -15,17 +15,17 @@ int i;
 char *m;
 
 	while (s1[size1] != '\0')
-       size1++;
+	size1++;
 	while (s2[size2] != '\0')
-       size2++;
+	size2++;
 	m = malloc((size1 + size2) * sizeof(char) + 1);
 	if (m == 0)
 		return (0);
 	for (i = 0; i < size1 + size2; i++)
 	{
-		if ( i < size1)
+		if (i < size1)
 			m[i] = s1[i];
-		else 
+		else
 			m[i] = s2[i - size1];
 	}
 	m[i] = '\0';
