@@ -21,7 +21,7 @@ char *m;
 	m = malloc((size1 + size2) * sizeof(char) + 1);
 	if (m == 0)
 		return (0);
-	for (i = 0; i <= size1 + size2; i++)
+	for (i = 0; i < size1 + size2; i++)
 	{
 		if ( i < size1)
 			m[i] = s1[i];
