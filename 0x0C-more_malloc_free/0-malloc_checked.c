@@ -4,9 +4,13 @@
 #include <limits.h>
 
 /**
- * main - check the code
+ * malloc_checked - Allocate memory with error checking
+ *@b: The number of bytes to allocate
  *
- * Return: Always 0.
+ *this function allocates 'b' bytes of memory using malloc and 
+ exits with error code 98 if the allocation fails.
+ *
+ * Return: A pointer to the allocated memory block
  */
 void *malloc_checked(unsigned int b)
 {
