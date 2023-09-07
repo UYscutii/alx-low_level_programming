@@ -9,18 +9,18 @@
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	unsigned int i, j, s1len, s2len;
+	unsigned int i, j, solen, stlen;
 	char *str;
 
 	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
-	for (s1len = 0; s1[s1len] != '\0';s1len++)
+	for (solen = 0; s1[solen] != '\0';solen++)
 		;
-	for (s2len = 0;s2[s2len] != '\0';  s2len++)
+	for (stlen = 0;s2[stlen] != '\0';  stlen++)
                 ;
-	str = malloc(s1len + n + 1);
+	str = malloc(solen + n + 1);
 	if (str == NULL)
 	{
 		return (NULL);
