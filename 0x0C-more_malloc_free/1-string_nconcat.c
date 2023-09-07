@@ -3,9 +3,12 @@
 #include <stdlib.h>
 
 /**
- * main - check the code
+ * string_nconcat - concatenates n characters from s2 to s1.
+ * @s1: The first string.
+ * @s2: The second string.
+ * @n: The number of characters from s2 to concatenate.
  *
- * Return: Always 0.
+ * Return: A pointer to the concatenated string.
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
@@ -16,10 +19,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
-	for (solen = 0; s1[solen] != '\0';solen++)
+	for (solen = 0; s1[solen] != '\0'; solen++)
 		;
-	for (stlen = 0;s2[stlen] != '\0';  stlen++)
-                ;
+	for (stlen = 0; s2[stlen] != '\0'; stlen++)
+		;
 	str = malloc(solen + n + 1);
 	if (str == NULL)
 	{
