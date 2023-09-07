@@ -7,8 +7,7 @@
  * malloc_checked - Allocate memory with error checking
  *@b: The number of bytes to allocate
  *
- *this function allocates 'b' bytes of memory using malloc and 
- exits with error code 98 if the allocation fails.
+ *this function allocates 'b' bytes of memory using malloc
  *
  * Return: A pointer to the allocated memory block
  */
