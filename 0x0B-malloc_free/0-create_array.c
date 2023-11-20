@@ -2,10 +2,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * simple_print_buffer - prints buffer in hexa
- * buffer: the address of memory to print
- * size: the size of the memory to print
- *
+ * *create_array - the working function that prints buffer in hexa
+ * @size: the size of the memory to print
+ * @c: the replaced character
  * Return: Nothing.
  */
 char *create_array(unsigned int size, char c)
