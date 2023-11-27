@@ -6,7 +6,7 @@
  * @d : contains the dog's information
  * Return : void
  */
-(void print_dog(struct dog *d)
+void print_dog(struct dog *d)
 {
 	printf("Name: %s\n", d->name);
 	if (name == NULL)
