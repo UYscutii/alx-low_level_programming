@@ -1,4 +1,4 @@
-#includde "dog.h"
+#include "dog.h"
 /**
  * init_dog - initializing a dog
  * @d :the initialized dog
