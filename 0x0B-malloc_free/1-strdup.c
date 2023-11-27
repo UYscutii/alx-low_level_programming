@@ -3,8 +3,8 @@
 #include <stdlib.h>
 
 /**
- * main - check the code for ALX School students.
- *
+ * _strdup  - returns a pointer
+ * @str: a string pointer
  * Return: Always 0.
  */
 char *_strdup(char *str)

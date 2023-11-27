@@ -3,8 +3,9 @@
 #include <stdlib.h>
 
 /**
- * main - check the code for ALX School students.
- *
+ * _strlen - check the code for ALX School students.
+ * *str_concat - a function that returns two pointers
+ * @s: a pointer character
  * Return: Always 0.
  */
 int _strlen(char *s)
