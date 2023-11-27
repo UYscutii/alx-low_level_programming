@@ -1,6 +1,7 @@
 #includde "dog.h"
 /**
  * init_dog - initializing a dog
+ * @d :the initialized dog
  * @name : dog's name
  * @owner: owner's name
  * @age : dog's age
